@@ -1,0 +1,51 @@
+:root{
+    --btncolor:#bfdb83;
+}
+.maindiv{
+    display:"flex";
+    flex-wrap:"wrap";
+    background-color: rgb(243, 243, 194);
+}
+.containerdiv{
+    display: inline-flex;
+    background-color: var(--btncolor);
+    width: calc(48%);
+    margin: calc(1%);
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.heading{
+    font-size: calc(400%);
+    text-align: center;
+    background-color:wheat;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+.name{
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+.status{
+    margin-top: 5px;
+    font-size: calc(120%);
+}
+button{
+    margin:2px;
+    width:40px;
+    height:20px;
+    background-color: rgb(243, 158, 48);
+    border: 0px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: var(--btncolor);
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+}
